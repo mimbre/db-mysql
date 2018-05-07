@@ -9,9 +9,15 @@
             "email": "gchumillas@email.com"
         }
     ],
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/mimbre/db"
+      }
+    ],
     "require": {
         "php": ">=7.2.0",
-        "mimbre/db": "~1.0"
+        "mimbre/db": "^1.0"
     },
     "autoload": {
         "psr-4": {
