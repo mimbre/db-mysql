@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+PEAR standards
+https://github.com/squizlabs/PHP_CodeSniffer/tree/master/src/Standards/PEAR
+-->
+<ruleset>
+  <rule ref="PEAR">
+    <exclude name="PEAR.Commenting.FileComment" />
+    <exclude name="PEAR.Commenting.ClassComment" />
+
+    <!-- By disabling these two rules we can use two space tabs. -->
+    <exclude name="PEAR.WhiteSpace.ScopeIndent" />
+    <exclude name="PEAR.Functions.FunctionCallSignature" />
+  </rule>
+</ruleset>

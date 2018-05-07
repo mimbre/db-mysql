@@ -1,0 +1,21 @@
+{
+    "name": "mimbre/db-mysql",
+    "description": "A MySQL implementation.",
+    "type": "php-library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gonzalo Chumillas",
+            "email": "gchumillas@email.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "mimbre/db": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "mimbre\\": "src/"
+        }
+    }
+}
