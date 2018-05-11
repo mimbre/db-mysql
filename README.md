@@ -16,7 +16,7 @@ composer require mimbre\db-mysql
 require_once "path/to/vendor/autoload.php";
 use mimbre\db\mysql\MySqlConnection;
 
-$db = new MySqlConnection("test", "root", "chum11145");
+$db = new MySqlConnection("test", "root", "your password");
 ```
 
 ## Developer notes
